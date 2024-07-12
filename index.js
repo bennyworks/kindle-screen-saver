@@ -1,3 +1,5 @@
+"use strict";
+
 const domApp = document.querySelector(".app");
 const domTime = document.querySelector(".time");
 const domDate = document.querySelector(".date");
