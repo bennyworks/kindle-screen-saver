@@ -5,11 +5,16 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Clock For Kindle</title>
+  <title>省察克治</title>
   <style>
     @font-face {
       font-family: TIME;
-      src: url("time.ttf") format("truetype");
+      src: url("./font/time.ttf") format("truetype");
+    }
+
+    @font-face {
+      font-family: MOTTO;
+      src: url("./font/maozedong-1.ttf") format("truetype");
     }
 
     * {
@@ -29,6 +34,12 @@
       top: 50%;
       left: 50%;
       -webkit-transform-origin: 0 0;
+    }
+
+    .motto {
+      font-family: MOTTO;
+      font-size: 3.5rem;
+      margin: 1rem 0;
     }
 
     .time {
